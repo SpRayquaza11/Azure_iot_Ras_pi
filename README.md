@@ -9,7 +9,7 @@ The following hardware is required , but you may use a different sensor if you w
    
    2)dht22 sensor (a fairly old sensor so replacing this may definetly help!)
    
-   3)Mxchip AZ1366 (Not required but nice to have)
+   3)Mxchip AZ3166 (Not required but nice to have)
    
    4)A MicroSD card with minimu 4 GB storage (To install our OS for raspberry pi Itdefinetly helps to have it!) 
    
