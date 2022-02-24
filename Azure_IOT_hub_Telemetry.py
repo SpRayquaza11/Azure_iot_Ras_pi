@@ -153,10 +153,10 @@ def printData():
 from azure.iot.device import IoTHubDeviceClient, Message
 
 #iot-hub
-CONNECTION_STRING = "HostName=swarup-iot-hub.azure-devices.net;DeviceId=MY-PI;SharedAccessKey=+A1kOXR90+8H6SYjmRROvN5QZN0dkndel/ubxIHS8CM="
+CONNECTION_STRING = ""
 
 #iot-central
-#CONNECTION_STRING = "HostName=iotc-b4dc3ed4-7cb1-4c54-a876-b070787754ea.azure-devices.net;DeviceId=7swwu99li6;SharedAccessKey=oSekwUmevCSW+mz/AoBhrY+zO3yQ/mOyHARP0nNJx2Y="
+#CONNECTION_STRING = ""
 
 MSG_SND = '{{"Humidity": {humLab}, \
 "Ambient_Temperature": {tempLab}, \
@@ -178,7 +178,7 @@ def iothub_client_telemetry_sample_run():
 #        print ("[INFO] msg_txt_formatted :", msg_txt_formatted)
         print ("[INFO] message :", message)
         client.send_message(message)
-#print( "[INFO] Data Sent to Azure Swarup IOT: {}".message )  
+#print( "[INFO] Data Sent to Azure IOT: {}".message )  
 #        print ( "Message successfully sent" )  
 #        time.sleep(3)  
     except KeyboardInterrupt:  
