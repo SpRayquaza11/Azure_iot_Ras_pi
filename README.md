@@ -95,6 +95,8 @@ After that fill in the code in thonny python IDE or the IDE of your choice gener
 
 To setup the Mxchip AZ3166 please follow the official documentation from Microsoft which I found to be very useful https://docs.microsoft.com/en-us/azure/iot-develop/quickstart-devkit-mxchip-az3166
 
+defintely recommend ths chip due to the high number of high accuracy sensors that it has in a very neat package. It also purpose built for microsoft azure hence is easy to setup for it.I used it to detect gyroscopic alterations or change in current through the magnetometer, again I WILL NOT RECOMMEND USING A LIVE CURRENT CONTROLLED ENVIRONMENT USING THIS IOT Setup although certainly possible, there are many things that can go wrong and cause severe damage to property or life.
+
 The connection string as well as the SSID and password of your WI-FI is all you must supply, make sure that the essential C make and ARM GCC packages are installed (Termite is optional and only for monitoring)
  
 
