@@ -93,6 +93,10 @@ open bash shell with root account
 
 After that fill in the code in thonny python IDE or the IDE of your choice generate A CRON JOB that repeatedly executes the CODE and you should have your device sending Telemetry data regularly without a hitch!
 
+To setup the Mxchip AZ3166 please follow the official documentation from Microsoft which I found to be very useful https://docs.microsoft.com/en-us/azure/iot-develop/quickstart-devkit-mxchip-az3166
+
+The connection string as well as the SSID and password of your WI-FI is all you must supply, make sure that the essential C make and ARM GCC packages are installed (Termite is optional and only for monitoring)
+ 
 
 Thanks for taking a look at my project !
 -Swarup Mohapatra (Spray)
