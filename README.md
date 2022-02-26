@@ -96,7 +96,9 @@ After that fill in the code in thonny python IDE or the IDE of your choice gener
 
 
 
-I defintely recommend the Az3166 chip due to the high number of high accuracy sensors that it has in a very neat package. It also purpose built for microsoft azure hence is easy to setup for it.I used it to detect gyroscopic alterations or change in current through the magnetometer, again I WILL NOT RECOMMEND USING A LIVE CURRENT CONTROLLING SYSTEM  although certainly possible and the aim of this experiment, there are many things that can go wrong and cause severe damage to property or life.hence I did not make the connections for the same.
+I defintely recommend the Az3166 chip due to the high number of high accuracy sensors that it has in a very neat package.In myprocet it acts as the SECOND IOT device which communicates with the Raspberry PI and also acts as validation for temperature and humidity.THe cloud commands are routed to both this and raspberry  PI and only after approval form both are executed.
+
+It also purpose built for microsoft azure hence is easy to setup for it.I used it to detect gyroscopic alterations or change in current through the magnetometer, again I WILL NOT RECOMMEND USING A LIVE CURRENT CONTROLLING SYSTEM  although certainly possible and the aim of this experiment, there are many things that can go wrong and cause severe damage to property or life.hence I did not make the connections for the same.
 
 To setup the Mxchip AZ3166 please follow these steps for clean setup the chip with minimal coding:- 
 
