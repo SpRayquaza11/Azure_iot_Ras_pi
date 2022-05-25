@@ -1,4 +1,4 @@
-#  iot failure detection serverless solution
+#  iot failure detection solution
 
 Submission for Future Ready Talent internship project
 
