@@ -1,4 +1,5 @@
-# Future_ready_talent_project
+#  iot failure detection serverless solution
+
 Submission for Future Ready Talent internship project
 
 We will send critical Device monitoring like ambient temperature and Humidity as well as device health data Disk usage, RAM usage, CPU usage , etc to the cloud . If the cloud detects the device health is not good it will trigger a disable since if the telemetry device is not functioning correctly there is a risk of failre in the monitored device.THe monitoring data may also lead to execution of Cloud logic based on threshold parameters.
